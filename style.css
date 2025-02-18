@@ -180,8 +180,32 @@
           margin: 0 auto;
       }
   }
+  .split_img{
+        width:10%;
+       height:150px;
+       margin-left:65px;
+      margin: 0px;
+      flex-direction:column;
+      display:flex;
+      flex-wrap:wrap;
+           }
+  .split_img img{
+    width:50%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid pink;
+    transition:all ease-out 0.5s;
+    cursor:pointer;
+    
+  }
+  .split_img img:hover{
+    width:100%;
+    background-color:rgb(241, 247, 241);
+    
+  }
   .footer {
-    background-color: rgb(245, 244, 252);
+    background-color: rgb(245, 244, 252); 
     color: #300fee;
     width: 100%;
     bottom: 0;
